@@ -13,3 +13,4 @@ def pascal_triangle(n):
 answer = pascal_triangle(5)
 for list in answer:
     print(list)
+    
