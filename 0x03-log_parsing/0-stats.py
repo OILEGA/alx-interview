@@ -8,6 +8,14 @@ statusCodeMap = {}
 
 def print_status():
     print(f"File Size: {totalFilesize}")
+    """
+    Method to print
+    Args:
+        dict_sc: dict of status codes
+        total_file_size: total of the file
+    Returns:
+        Nothing
+    """
 
     for status, count in sorted(statusCodeMap.items()):
         print(f"{status}: {count}")
