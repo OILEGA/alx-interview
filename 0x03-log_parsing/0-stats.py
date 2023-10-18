@@ -5,11 +5,13 @@ totalFilesize = 0
 numberOfLines = 0
 statusCodeMap = {}
 
+
 def print_status():
     print(f"File Size: {totalFilesize}")
 
     for status, count in sorted(statusCodeMap.items()):
         print(f"{status}: {count}")
+
 
 try:
     for line in sys.stdin:
@@ -33,5 +35,4 @@ try:
         (print_status())
 
 except KeyboardInterrupt:
-        (print_status())
-
+    (print_status())
