@@ -2,6 +2,8 @@
 '''
 transforming matrix to 90 degree where position is been swapped
 '''
+def rotate_2d_matrix(matrix):
+    size = len(matrix)
 matrix = [[1, 2, 3], [4, 5, 6],[7, 8, 9]]
 
 size = len(matrix)
