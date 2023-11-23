@@ -24,5 +24,3 @@ def makeChange(coins, total):
         else:
             coin_idx += 1
     return coins_count def makeChange(coins, total)
-    
-    print(makeChange([1256, 54, 48, 16, 102], 1453))
